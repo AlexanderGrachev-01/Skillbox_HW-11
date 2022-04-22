@@ -1,19 +1,25 @@
-//
-//  ViewController.swift
-//  Skillbox_HW-11
-//
-//  Created by Александр  Грачев on 21.04.2022.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var customButton: CustomButton!
+    @IBOutlet weak var clockView: ClockView!
+    @IBOutlet weak var customSegmentController: CustomSegmentControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        customSegmentController.setUpActions()
+        customSegmentController.delegate = self
     }
+}
 
-
+extension ViewController: CustomSegmentDelegate {
+    func chooseSegment(_ isFirstSelected: Bool) {
+        if isFirstSelected {
+            print("first")
+        } else {
+            print("second")
+        }
+    }
 }
 

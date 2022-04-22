@@ -13,6 +13,9 @@
 		1CF41B472811777F008FEBF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF41B452811777F008FEBF1 /* Main.storyboard */; };
 		1CF41B4928117781008FEBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF41B4828117781008FEBF1 /* Assets.xcassets */; };
 		1CF41B4C28117781008FEBF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF41B4A28117781008FEBF1 /* LaunchScreen.storyboard */; };
+		1CF41B54281178DD008FEBF1 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF41B53281178DD008FEBF1 /* CustomButton.swift */; };
+		1CF41B56281179A3008FEBF1 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF41B55281179A3008FEBF1 /* ClockView.swift */; };
+		1CF41B5828117DC4008FEBF1 /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF41B5728117DC4008FEBF1 /* CustomSegmentControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1CF41B4828117781008FEBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CF41B4B28117781008FEBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CF41B4D28117781008FEBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF41B53281178DD008FEBF1 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		1CF41B55281179A3008FEBF1 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		1CF41B5728117DC4008FEBF1 /* CustomSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				1CF41B3F2811777F008FEBF1 /* AppDelegate.swift */,
 				1CF41B412811777F008FEBF1 /* SceneDelegate.swift */,
+				1CF41B53281178DD008FEBF1 /* CustomButton.swift */,
+				1CF41B55281179A3008FEBF1 /* ClockView.swift */,
+				1CF41B5728117DC4008FEBF1 /* CustomSegmentControl.swift */,
 				1CF41B432811777F008FEBF1 /* ViewController.swift */,
 				1CF41B452811777F008FEBF1 /* Main.storyboard */,
 				1CF41B4828117781008FEBF1 /* Assets.xcassets */,
@@ -138,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF41B5828117DC4008FEBF1 /* CustomSegmentControl.swift in Sources */,
+				1CF41B54281178DD008FEBF1 /* CustomButton.swift in Sources */,
+				1CF41B56281179A3008FEBF1 /* ClockView.swift in Sources */,
 				1CF41B442811777F008FEBF1 /* ViewController.swift in Sources */,
 				1CF41B402811777F008FEBF1 /* AppDelegate.swift in Sources */,
 				1CF41B422811777F008FEBF1 /* SceneDelegate.swift in Sources */,
